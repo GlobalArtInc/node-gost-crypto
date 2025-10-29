@@ -1,6 +1,6 @@
 {
   "name": "@globalart/crypto-streebog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Globalart, Inc",
   "dependencies": {
     "@noble/hashes": "catalog:prod"
@@ -21,7 +21,14 @@
     "release-it": "catalog:dev"
   },
   "description": "GOST Streebog crypto functions for Node.js",
-  "files": ["dist"],
-  "keywords": ["gost", "crypto", "streebog", "node-gost-crypto"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "gost",
+    "crypto",
+    "streebog",
+    "node-gost-crypto"
+  ],
   "license": "MIT"
 }
