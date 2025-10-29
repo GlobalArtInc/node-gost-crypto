@@ -2,9 +2,6 @@
   "name": "@globalart/crypto-streebog",
   "version": "0.0.2",
   "author": "Globalart, Inc",
-  "dependencies": {
-    "@noble/hashes": "catalog:prod"
-  },
   "scripts": {
     "build": "tsdown",
     "build:watch": "tsdown --watch",
@@ -15,10 +12,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@noble/hashes": "^2.0.1"
+  },
   "devDependencies": {
-    "typescript": "catalog:dev",
-    "tsdown": "catalog:dev",
-    "release-it": "catalog:dev"
+    "typescript": "^5.9.3",
+    "tsdown": "^0.15.11",
+    "release-it": "^19.0.5"
   },
   "description": "GOST Streebog crypto functions for Node.js",
   "files": [

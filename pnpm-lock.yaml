@@ -4,22 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-catalogs:
-  dev:
-    release-it:
-      specifier: ^19.0.5
-      version: 19.0.5
-    tsdown:
-      specifier: ^0.15.11
-      version: 0.15.11
-    typescript:
-      specifier: ^5.9.3
-      version: 5.9.3
-  prod:
-    '@noble/hashes':
-      specifier: ^2.0.1
-      version: 2.0.1
-
 importers:
 
   .: {}
@@ -27,17 +11,17 @@ importers:
   packages/streebog:
     dependencies:
       '@noble/hashes':
-        specifier: catalog:prod
+        specifier: ^2.0.1
         version: 2.0.1
     devDependencies:
       release-it:
-        specifier: catalog:dev
+        specifier: ^19.0.5
         version: 19.0.5
       tsdown:
-        specifier: catalog:dev
+        specifier: ^0.15.11
         version: 0.15.11(typescript@5.9.3)
       typescript:
-        specifier: catalog:dev
+        specifier: ^5.9.3
         version: 5.9.3
 
 packages:
