@@ -1,6 +1,6 @@
 {
   "name": "@globalart/crypto-streebog",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Globalart, Inc",
   "type": "module",
   "main": "./dist/index.js",
