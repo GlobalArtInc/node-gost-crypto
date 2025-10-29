@@ -1,0 +1,9 @@
+{
+  "name": "@globalart/node-gost-crypto",
+  "version": "0.0.1",
+  "author": "Globalart, Inc",
+  "description": "GOST crypto functions for Node.js",
+  "files": ["dist"],
+  "keywords": ["gost", "crypto", "streebog", "node-gost-crypto"],
+  "license": "MIT"
+}
